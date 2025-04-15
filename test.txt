@@ -1,0 +1,12 @@
+1.Login with your GCP credentials:
+
+bash
+gcloud auth application-default login
+
+2.Try your tool:
+
+python main.py --list
+python main.py --start my-instance-name
+python main.py --stop my-instance-name
+
+
