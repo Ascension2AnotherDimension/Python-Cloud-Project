@@ -2,6 +2,17 @@ Python
 
 # main.py
 
+"""
+Ascension2AnotherDimension - Main Entry Point
+
+This CLI tool allows users to:
+- List VM instances
+- Start a VM
+- Stop a VM
+
+It uses config.py for default project settings.
+"""
+
 import argparse
 from config import PROJECT_ID, DEFAULT_ZONE
 import instance_manager
